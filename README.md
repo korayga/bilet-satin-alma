@@ -21,10 +21,9 @@ Bu platform, otobüs firmaları için **profesyonel bilet satış ve rezervasyon
   - [📂 Proje Yapısı](#-proje-yapısı)
   - [🗄️ Veritabanı Şeması](#️-veritabanı-şeması)
   - [🔒 Güvenlik](#-güvenlik)
-  - [🚀 Gelecek Planları (Roadmap)](#-gelecek-planları-roadmap)
   - [🤝 Katkıda Bulunma](#-katkıda-bulunma)
   - [📞 İletişim & Destek](#-iletişim--destek)
-  - [📄 Lisans](#-lisans)
+
 
 -----
 
@@ -196,10 +195,10 @@ Sistem ilk kurulumda veya demo verileri yüklendiğinde aşağıdaki test kullan
 
 | Rol | Kullanıcı Adı | Şifre | Bakiye | Açıklama |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sistem Admin** | `admin` | `123456` | 5000 ₺ | Tüm sisteme erişim, firma ve kullanıcı yönetimi |
+| **Sistem Admin** | `admin` | `123456` | 0 ₺ | Tüm sisteme erişim, firma ve kullanıcı yönetimi |
 | **Firma Admin** | `metro_admin` | `123456` | 0 ₺ | Sadece "Metro Turizm" firmasının seferlerini yönetir |
 | **Firma Admin**| `pamukkale_admin`| `123456` | 0 ₺ | Sadece "Pamukkale" firmasının seferlerini yönetir |
-| **Müşteri** | `test` | `123456` | 1000 ₺ | Bilet arama, satın alma, iptal işlemleri |
+| **Müşteri** | `test` | `123456` | 800 ₺ | Bilet arama, satın alma, iptal işlemleri |
 
 -----
 
