@@ -1,0 +1,62 @@
+# Database
+database/*.sqlite
+database/*.db
+*.sqlite
+*.db
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Node modules (if using frontend tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Composer
+vendor/
+composer.lock
+
+# Build files
+dist/
+build/
+
+# Upload directories
+uploads/*
+!uploads/.gitkeep
+
+# Test files
+phpunit.xml
+.phpunit.result.cache
+tests/coverage/
+
+# Docker volumes
+docker-compose.override.yml

@@ -1,0 +1,17 @@
+services:
+  web:
+    container_name: bilet-web
+    build: .
+    ports:
+      - "8081:80"
+    volumes:
+      - .:/var/www/html
+      - ./database:/var/www/html/database
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html/public
+    networks:
+      - bilet-network
+
+networks:
+  bilet-network:
+    driver: bridge
