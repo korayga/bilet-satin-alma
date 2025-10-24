@@ -1,14 +1,14 @@
 FROM php:8.2-apache
 
-# PHP uzantılarını yükle
-RUN docker-php-ext-install pdo pdo_sqlite
-
-# Gerekli paketleri yükle
+# Gerekli paketleri yükle (SQLite3 dahil)
 RUN apt-get update && apt-get install -y \
+    libsqlite3-dev \
     libzip-dev \
     zip \
     unzip \
-    && docker-php-ext-install zip
+    && docker-php-ext-install pdo pdo_sqlite zip \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 # Apache mod_rewrite etkinleştir
 RUN a2enmod rewrite
