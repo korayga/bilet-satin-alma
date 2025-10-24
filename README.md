@@ -13,6 +13,7 @@ Bu platform, otobüs firmaları için **profesyonel bilet satış ve rezervasyon
       - [🎫 Müşteri (User) Özellikleri](#-müşteri-user-özellikleri)
       - [🏢 Firma Admin Özellikleri](#-firma-admin-özellikleri)
       - [⚙️ Sistem Admin Özellikleri](#️-sistem-admin-özellikleri)
+  - [� Ekran Görüntüleri](#-ekran-görüntüleri)
   - [🛠 Teknolojiler](#-teknolojiler)
   - [🚀 Hızlı Başlangıç (Docker)](#-hızlı-başlangıç-docker)
   - [💻 Manuel Kurulum](#-manuel-kurulum)
@@ -21,9 +22,10 @@ Bu platform, otobüs firmaları için **profesyonel bilet satış ve rezervasyon
   - [📂 Proje Yapısı](#-proje-yapısı)
   - [🗄️ Veritabanı Şeması](#️-veritabanı-şeması)
   - [🔒 Güvenlik](#-güvenlik)
+  - [🚀 Gelecek Planları (Roadmap)](#-gelecek-planları-roadmap)
   - [🤝 Katkıda Bulunma](#-katkıda-bulunma)
   - [📞 İletişim & Destek](#-iletişim--destek)
-
+  - [📄 Lisans](#-lisans)
 
 -----
 
@@ -77,7 +79,66 @@ Bu platform, otobüs firmaları için **profesyonel bilet satış ve rezervasyon
 
 -----
 
-## 🛠 Teknolojiler
+## � Ekran Görüntüleri
+
+### 👤 Kullanıcı Paneli
+
+#### 🔐 Giriş Sayfası
+<img width="1904" alt="Giriş Sayfası" src="https://github.com/user-attachments/assets/99cc2ab7-1bd1-45a6-a3fe-e5c6686820df" />
+
+#### 📝 Kayıt Sayfası
+<img width="1892" alt="Kayıt Sayfası" src="https://github.com/user-attachments/assets/4a9b6443-8547-4cbd-a036-80c88a382265" />
+
+#### 🏠 Ana Sayfa
+<img width="1890" alt="Ana Sayfa" src="https://github.com/user-attachments/assets/02b9456c-01c6-4f44-a92f-3b6e8c9fb2ac" />
+
+#### 🚌 Seferler Sayfası
+<img width="1911" alt="Seferler Sayfası" src="https://github.com/user-attachments/assets/0960abf9-c14b-4c40-810e-90cbb16482b7" />
+
+#### 👤 Profil Sayfası
+<img width="1894" alt="Profil Sayfası" src="https://github.com/user-attachments/assets/1de0c0d5-49f5-4e8d-9f4e-ee50371a1b03" />
+
+#### 🎫 Biletlerim Sayfası
+<img width="1919" alt="Biletlerim Sayfası" src="https://github.com/user-attachments/assets/14a1d17a-bac6-428f-bc79-ff7225253deb" />
+
+---
+
+### 🏢 Firma Admin Paneli
+
+#### 📊 Dashboard
+<img width="1893" alt="Firma Admin Dashboard" src="https://github.com/user-attachments/assets/67bd4722-2d23-4648-8b0b-954b5afee8e9" />
+
+#### 🚌 Seferler Yönetimi
+<img width="1919" alt="Firma Admin Seferler" src="https://github.com/user-attachments/assets/ba8858ae-6280-43f7-abe8-46c439867283" />
+
+#### 🎁 Kuponlar Yönetimi
+<img width="1917" alt="Firma Admin Kuponlar" src="https://github.com/user-attachments/assets/cb268766-61b7-474f-ba7c-c0948b0eb7d8" />
+
+#### 📈 Raporlar
+<img width="1914" alt="Firma Admin Raporlar" src="https://github.com/user-attachments/assets/02424572-440f-4452-9013-ed9c7728a52d" />
+
+---
+
+### ⚙️ Sistem Admin Paneli
+
+#### 📊 Dashboard
+<img width="1891" alt="Sistem Admin Dashboard" src="https://github.com/user-attachments/assets/ae636432-24f0-4789-bbd0-860942ad85ce" />
+
+#### 🏢 Firmalar Yönetimi
+<img width="1917" alt="Firmalar Yönetimi" src="https://github.com/user-attachments/assets/d8fee4aa-b100-499e-b478-58d26e95f069" />
+
+#### 👥 Kullanıcılar Yönetimi
+<img width="1918" alt="Kullanıcılar Yönetimi" src="https://github.com/user-attachments/assets/4cb9fa53-45a5-4abd-bfec-94734fcef4ec" />
+
+#### 🚌 Tüm Seferler
+<img width="1892" alt="Tüm Seferler" src="https://github.com/user-attachments/assets/b4b30262-d5bd-4510-af96-3f81348da53c" />
+
+#### 🎁 Global Kuponlar
+<img width="1899" alt="Global Kuponlar" src="https://github.com/user-attachments/assets/16aee741-f67f-4cfd-8faa-b0816e4b65f0" />
+
+-----
+
+## �🛠 Teknolojiler
 
 | Kategori | Teknoloji | Açıklama |
 | :--- | :--- | :--- |
@@ -195,10 +256,10 @@ Sistem ilk kurulumda veya demo verileri yüklendiğinde aşağıdaki test kullan
 
 | Rol | Kullanıcı Adı | Şifre | Bakiye | Açıklama |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sistem Admin** | `admin` | `123456` | 0 ₺ | Tüm sisteme erişim, firma ve kullanıcı yönetimi |
+| **Sistem Admin** | `admin` | `123456` | 5000 ₺ | Tüm sisteme erişim, firma ve kullanıcı yönetimi |
 | **Firma Admin** | `metro_admin` | `123456` | 0 ₺ | Sadece "Metro Turizm" firmasının seferlerini yönetir |
 | **Firma Admin**| `pamukkale_admin`| `123456` | 0 ₺ | Sadece "Pamukkale" firmasının seferlerini yönetir |
-| **Müşteri** | `test` | `123456` | 800 ₺ | Bilet arama, satın alma, iptal işlemleri |
+| **Müşteri** | `test` | `123456` | 1000 ₺ | Bilet arama, satın alma, iptal işlemleri |
 
 -----
 
@@ -333,8 +394,8 @@ Katkılarınızı bekliyoruz\! Lütfen şu adımları takip edin:
 
 **Geliştirici: Koray Garip**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/koray-garip/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/korayga)
+[](https://www.linkedin.com/in/koray-garip/)
+[](https://github.com/korayga)
 
 Sorunlar için GitHub Issues kullanabilir veya yukarıdaki profillerden ulaşabilirsiniz.
 
