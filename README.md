@@ -256,10 +256,9 @@ Sistem ilk kurulumda veya demo verileri yüklendiğinde aşağıdaki test kullan
 
 | Rol | Kullanıcı Adı | Şifre | Bakiye | Açıklama |
 | :--- | :--- | :--- | :--- | :--- |
-| **Sistem Admin** | `admin` | `123456` | 5000 ₺ | Tüm sisteme erişim, firma ve kullanıcı yönetimi |
-| **Firma Admin** | `metro_admin` | `123456` | 0 ₺ | Sadece "Metro Turizm" firmasının seferlerini yönetir |
-| **Firma Admin**| `pamukkale_admin`| `123456` | 0 ₺ | Sadece "Pamukkale" firmasının seferlerini yönetir |
-| **Müşteri** | `test` | `123456` | 1000 ₺ | Bilet arama, satın alma, iptal işlemleri |
+| **Sistem Admin** | `admin` | `123456` | 0 ₺ | Tüm sisteme erişim, firma ve kullanıcı yönetimi |
+| **Firma Admin** | `metro_admin` | `123456` | 0 ₺ | Sadece kendi firmasının seferlerini yönetir |
+| **Müşteri** | `test` | `123456` | 800 ₺ | Bilet arama, satın alma, iptal işlemleri |
 
 -----
 
@@ -269,14 +268,14 @@ Sistem ilk kurulumda veya demo verileri yüklendiğinde aşağıdaki test kullan
 
 1.  Müşteri ana sayfadan Kalkış-Varış-Tarih seçerek sefer arar.
 2.  Listelenen seferlerden uygun olanı seçer.
-3.  İnteraktif koltuk haritasından koltuk seçer (max 4 koltuk).
+3.  İnteraktif koltuk haritasından koltuk seçer.
 4.  Varsa kupon kodunu girer.
 5.  "Ödemeyi Tamamla" butonuna tıklar.
 6.  Bilet oluşturulur ve "Biletlerim" sayfasına yönlendirilir.
 
 ### Senaryo 2: Firma Admin - Yeni Sefer Ekleme
 
-1.  Firma admin (`metro_admin`) paneline giriş yapar.
+1.  Firma admin  paneline giriş yapar.
 2.  "Seferler" -\> "Yeni Sefer Ekle" menüsüne gider.
 3.  Formu doldurur (Kalkış, Varış, Tarih, Fiyat, Otobüs Tipi, Koltuk Sayısı).
 4.  Kaydeder. Sefer anında müşteriler için listelenmeye başlar.
@@ -396,8 +395,6 @@ Katkılarınızı bekliyoruz\! Lütfen şu adımları takip edin:
 
 [](https://www.linkedin.com/in/koray-garip/)
 [](https://github.com/korayga)
-
-Sorunlar için GitHub Issues kullanabilir veya yukarıdaki profillerden ulaşabilirsiniz.
 
 -----
 
