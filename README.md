@@ -22,10 +22,8 @@ Bu platform, otobüs firmaları için **profesyonel bilet satış ve rezervasyon
   - [📂 Proje Yapısı](#-proje-yapısı)
   - [🗄️ Veritabanı Şeması](#️-veritabanı-şeması)
   - [🔒 Güvenlik](#-güvenlik)
-  - [🚀 Gelecek Planları (Roadmap)](#-gelecek-planları-roadmap)
-  - [🤝 Katkıda Bulunma](#-katkıda-bulunma)
   - [📞 İletişim & Destek](#-iletişim--destek)
-  - [📄 Lisans](#-lisans)
+  
 
 -----
 
